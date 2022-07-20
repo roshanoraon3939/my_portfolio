@@ -1,0 +1,181 @@
+header{
+    
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    overflow: hidden;
+}
+
+.header_container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* --------------------- CTA ---------------------- */
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* --------------------- HAEDER SOCIALS ---------------------- */
+.header_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header_socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* --------------------- ME ---------------------- */
+ .container_me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .card{
+    margin-top: 150px!important;
+    width:250px;
+    margin: auto;
+    height: 250px;
+    border-radius: 50%;
+    position: relative;
+    transition: transform 4s ease-in;
+    overflow: hidden;
+    border: 1px solid var(--color-primary);
+
+}
+img{
+    width:100%;
+    height: 100%;
+    transition: transform 1s ease-in;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.card:before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    content: "";
+    transform:translateY(-100%);
+    font-size: 25px;
+    color: white;
+   display: block;
+    background-color: rgba(188, 143, 143, 0.137);
+    z-index: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   font-family: sans-serif;
+    transition: transform .4s ease-in;
+    border:4px solid var(--color-primary);
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.card:after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    content: "Yup! That's Me";
+    transform:translateY(100%);
+    font-size: 25px;
+    color: white;
+   display: block;
+    background-color: rgba(188, 143, 143, 0.137);
+    z-index: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   font-family: sans-serif;
+    transition: transform .4s ease-in;
+    border:4px solid var(--color-primary);
+    justify-content: center;
+    box-sizing: border-box;
+}
+ .card:hover::before{
+ transform: translateY(0%); 
+ 
+}
+.card:hover::after{
+    transform: translateY(0%); 
+    
+   }
+/* .me{
+    background: linear-gradient(var(--color-primary) , transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 4rem;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+} */
+
+
+/* --------------------- SCROOL DOWN ---------------------- */
+.scroll_down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+/* text*/
+.tagses {
+  text-align: center;
+  padding:0.5rem;
+  padding-bottom: 2rem;
+  border-radius: 2rem;
+  user-select: none;
+}
+
+.swiper-pagination{
+display: none;
+}
+.text-light{
+  width: 40%;
+  padding-bottom: 2rem;
+}
+/* -------------------- Media Queries (Medium Devices)-------------------- */
+@media screen and (max-width: 1024px){
+    header{
+        height: 68vh;
+    }
+}
+
+
+/* -------------------- Media Queries (Small Devices)-------------------- */
+@media screen and (max-width: 600px){
+    header{
+        height: 100vh;
+    }
+
+    .header_socials,.scroll_down{
+        display: none;
+    }
+
+}
