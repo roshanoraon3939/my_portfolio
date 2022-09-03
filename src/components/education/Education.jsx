@@ -21,7 +21,7 @@ const Education = () => {
                 <small className='text-light'>
                 <ul>
                     <li>July 2019 - (Expected )August 2023</li>
-                    <li>C.G.P.A. - 8.55</li>
+                    <li>C.G.P.A. - 8.51</li>
                   </ul>
                 </small>
               </div>
