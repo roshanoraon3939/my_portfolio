@@ -40,7 +40,7 @@ const Education = () => {
                 <small className='text-light'>
                 <ul>
                     <li>March 2018 - March 2019</li>
-                    <li>Percentage - 88.6%</li>
+                    <li>Percentage - 86.5%</li>
                   </ul>
                 </small>
               </div>
