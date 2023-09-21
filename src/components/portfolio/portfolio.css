@@ -8,12 +8,12 @@
     background: var(--color-bg-variant);
     padding: 1.3rem;
     border-radius: 2rem;
-    border: 1pz solid transparent;
+    border: 1px solid white;
     transition: var(--tranisition);
 }
 
 .portfolio_item:hover{
-    border-color: var(--color-primary-variant);
+    border-color: white;
     background: transparent;
 }
 

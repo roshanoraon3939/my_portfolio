@@ -39,7 +39,9 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url('../src/assests/bg-texture2.jpg');
+    /* background-image: url('../src/assests/bg-texture2.jpg'); */
+    background-image: url('../src/assests/bg_texture1.jpeg');
+
     
 }
 
@@ -58,7 +60,7 @@ h1{
 }
 
 section {
-    margin-top: 8rem;
+    margin-top: 5rem;
 }
 
 section > h2, section >h5 {

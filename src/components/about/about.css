@@ -12,7 +12,7 @@
 
 .about_card{
     background: var(--color-bg-variant);
-    border: 1px solid transparent;
+    border: 1px solid white;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
@@ -42,7 +42,6 @@
 
 .about_content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
 }
 
 /* -------------------- Media Queries (Medium Devices)--------------------*/
