@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my_portfolio/static/css/main.b480f5e0.css",
+    "main.js": "/my_portfolio/static/js/main.3c852754.js",
+    "static/media/profile1.jpg": "/my_portfolio/static/media/profile1.dc1bdf86feb0bc1d51fb.jpg",
+    "static/media/resume_site.PNG": "/my_portfolio/static/media/resume_site.83cce3150cd30d2b361e.PNG",
+    "static/media/newsmani.PNG": "/my_portfolio/static/media/newsmani.616ee3905bfb31b361bf.PNG",
+    "static/media/Kicksup.PNG": "/my_portfolio/static/media/Kicksup.f8e5719706193b816cb8.PNG",
+    "static/media/weather1.png": "/my_portfolio/static/media/weather1.a4120554e27802586e80.png",
+    "static/media/profile.jpg": "/my_portfolio/static/media/profile.f0405792505153d71c68.jpg",
+    "static/media/final_resume_1.pdf": "/my_portfolio/static/media/final_resume_1.bbc283a6602e72e9876d.pdf",
+    "static/media/bmi3.PNG": "/my_portfolio/static/media/bmi3.943c89857f40cbfada28.PNG",
+    "static/media/textUtils.PNG": "/my_portfolio/static/media/textUtils.e2614e82bb0a8eccf95c.PNG",
+    "static/media/bg_texture1.jpeg": "/my_portfolio/static/media/bg_texture1.6ab64a63c02c6cb580d7.jpeg",
+    "index.html": "/my_portfolio/index.html",
+    "main.b480f5e0.css.map": "/my_portfolio/static/css/main.b480f5e0.css.map",
+    "main.3c852754.js.map": "/my_portfolio/static/js/main.3c852754.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b480f5e0.css",
+    "static/js/main.3c852754.js"
+  ]
+}
